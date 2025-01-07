@@ -23,7 +23,6 @@ struct AppetizerTabView: View {
             }
             .badge(order.items.count)
         }
-        .tint(Color.brandPrimary)
     }
 }
 
